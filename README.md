@@ -32,30 +32,6 @@ The project was originally developed as a programming assignment and subsequentl
 ---
 
 
-## Installation
-
-### 1. Create a virtual environment
-
-```bash
-sudo apt install python3.12-venv
-
-cd src/exam_simulation/
-python3 -m venv venv
-source venv/bin/activate
-```
-
-### 2. Run the simulation
-
-```bash
-cd src/
-python3 -m exam_simulation
-```
-
-No external Python packages are required.
-
----
-
-
 ## How It Works
 
 The simulation starts by loading examiners, students, and questions from text files.
@@ -210,8 +186,7 @@ project/
 │   ├── architecture.md
 │   └── exam-simulation.gif
 │
-├── README.md
-└── README_ru.md
+└── README.md
 ```
 
 ---
@@ -234,8 +209,8 @@ No external dependencies are required.
 From the project directory:
 
 ```bash
-cd src/exam_simulation/src
-python3 main.py
+cd src/
+python3 -m exam_simulation
 ```
 
 ---
